@@ -1,4 +1,4 @@
-Uses   {$ifdef unix}cthreads{$endif},
+Uses   {$ifdef unix}cthreads,{$endif}
  gaedch2,gfxn,ptcgraph,ptccrt,ptcmouse,hex2bin,gfwin,sysutils,opendunit;
 const
 {messages}
